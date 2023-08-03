@@ -2,14 +2,14 @@ function clearDisplay() {
     document.getElementById("text1").value = "";
 }
 
-function showNumbers(value){
-   document.getElementById("text1").value +=value;
+function showNumbers(value) {
+    document.getElementById("text1").value += value;
 }
 
-function solveNumbers(){
-    let x=document.getElementById("text1").value;
-    let y=eval(x);
-    document.getElementById("text1").value=y;
+function calculate() {
+    var x = document.getElementById("text1").value;
+    var y = eval(x);
+    document.getElementById("text1").value = y;
 }
 
 
